@@ -1,0 +1,1086 @@
+@import 'nib'
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic");
+// font-family: 'Roboto Condensed', sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,500&subset=latin,cyrillic");
+// font-family: 'Roboto', sans-serif;
+
+/* font-family: "GothamProLight"; */
+@font-face {
+    font-family: "CocogothicBold";
+    src: url("../fonts/cocogothic/CocoGothicBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "CocogothicLight";
+    src: url("../fonts/cocogothic/CocoGothicLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "CocogothicUltraLight";
+    src: url("../fonts/cocogothic/CocoGothicUltralight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+*
+    box-sizing border-box
+.clearfix
+	clearfix()
+html
+    height 100%
+    width 100%
+    position relative       
+body
+    font-family: 'Roboto', sans-serif;
+    position relative
+    padding 0
+    margin 0
+    color #000
+    width 100%
+    min-width 320px
+    font-size 18px
+    font-weight normal
+*
+	box-sizing border-box
+a
+	text-decoration none
+img
+	max-width 100%
+header
+    width 100%
+    padding 4.3222vw 0
+    background url("../images/main-bg.png") no-repeat center
+    background-size cover
+    .container
+        text-align center
+.container
+    width 59.375vw
+    margin 0 auto
+    clearfix()
+    .logo
+        text-align left
+        float left
+        a
+            font-size 1.666em
+            color #fff
+            text-transform uppercase
+            font-family: "CocogothicBold";
+            display block
+            line-height 25px
+            i
+                font-style normal
+                font-size 0.53em
+                display block
+                font-family: "CocogothicLight";
+                letter-spacing 6.33px
+    nav
+        text-align right
+        ul
+            padding 0
+            margin 0
+            li
+                list-style-type none
+                display inline-block
+                padding 0 1.56vw
+                a
+                    font-size 1.055em
+                    color #fff
+                    font-weight 500
+                    padding 8px 0 4px 0
+                    border-bottom 4px solid transparent
+                    transition 0.3s
+                    &:hover
+                        border-bottom 4px solid #10a1e5
+    h1
+        margin 0
+        padding-top 11.45vw
+        text-transform uppercase
+        font-size 3.865em
+        text-align center
+        color #00c6ff
+        &+p
+            text-align center
+            font-size 1.33em
+            color #fff
+            font-weight 300
+            margin 1.565em auto 2.343em auto
+    .tocat
+        -webkit-border-radius: 25px 26px 26px 25px/25px 25px 26px 26px;
+        -moz-border-radius: 25px 26px 26px 25px/25px 25px 26px 26px;
+        border-radius: 25px 26px 26px 25px/25px 25px 26px 26px;
+        background-color: #168ecd;
+        cursor pointer
+        margin 0 auto
+        font-size 1.055em
+        font-weight 500
+        display inline-block
+        padding 0.7825vw 3.13em
+        transition 0.3s
+        color #fff
+        &:hover
+            padding 0.7825vw 3.5em
+    .down-btn
+        cursor pointer
+        margin-top 9.11vw
+section.what
+    background url("../images/bg2.png") no-repeat center
+    background-size cover
+    .container
+        padding 7.55vw 0 0 0
+        position relative
+        z-index 1
+        h2
+            font-size 3.948em
+            font-family: "CocogothicUltraLight";
+            color #14131a
+            margin 0
+            line-height 74px
+            i
+                font-style normal
+                display block
+                color #002957
+                font-family: "CocogothicBold";
+        .about-watches
+            font-size 1em
+            font-weight 300
+            color #14131a
+            padding 4.16vw 50% 7.03vw 0
+            &+img
+                position absolute
+                top 6vw
+                right -6vw
+                width 26.19vw
+                z-index -1
+section.advantages
+    background url("../images/bg3.png") no-repeat center
+    background-size cover
+    .container
+        padding 8.333vw 0
+        h3
+            font-size 3.297222em
+            text-transform uppercase
+            margin 0
+            text-align center
+            font-family: "CocogothicBold";
+            color #d6d6d6
+        .advantages-wrap
+            margin-top 4.6875vw
+            clearfix()
+            .adv-item
+                width 25%
+                float left
+                padding 0 2vw
+                text-align center
+                img
+                    margin 0 auto 1.5vw
+                p
+                    color #d6d6d6
+                    font-size 1.3333em
+                    font-family: 'Roboto Condensed', sans-serif;
+                    margin 0
+section.hits
+    background #fff
+    .container
+        padding 6.25vw 0 0 0
+        h4
+            font-size 3.948em
+            color #10a1e5
+            text-transform uppercase
+            margin 0 0 4.166vw 0
+            font-family: "CocogothicBold", sans-serif;
+        .watch.hit
+            .watch-description
+                .watch-item
+                    .watch-title
+                            color #f3568a
+            .watch-btn
+                &>div
+                    background #f3568a
+            &>img
+                position absolute
+                top -2.3437vw
+                right 0.5208vw
+                max-width 5.3645vw
+                z-index 1
+.watch
+    width 100%
+    padding 2.604vw 1.822vw 1.822vw 2.604vw
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 8px 10px rgba(0,0,0,.21);
+    -moz-box-shadow: 2px 8px 10px rgba(0,0,0,.21);
+    box-shadow: 2px 8px 10px rgba(0,0,0,.21);
+    border 1px solid #8fd3f3
+    position relative
+    margin-bottom 5.9895vw
+    clearfix()
+    &:last-child
+        margin-bottom 8.0729vw
+    .watch-description
+        float left
+        max-width 62.649%
+        .watch-item
+            letter-spacing -2px
+            clearfix()
+            .watch-title
+                font-size 2.324em
+                color #0698c9
+                font-weight 500
+                float left
+                margin-right 4%
+            .watch-price
+                float left
+                font-size 2.324em
+                color #868686
+                font-weight 500
+        .about-watch
+            margin 1.875vw 0 1.041vw 0
+            padding-right 6.14%
+            p
+                font-weight 300
+                font-size 1em
+                color #343434
+            p.hidden
+                display none
+            a
+                font-size 1em
+                color #343434
+                font-weight 500
+                padding-bottom 2px
+                border-bottom 1px dashed #343434
+                transition 0.3s
+                &:hover
+                    border-bottom none
+        .watch-params
+            clearfix()
+            margin 1.822vw 0 2.6041vw 0
+            .param
+                font-weight 400
+                font-size .888em
+                color #343434
+                float left
+                min-width 40%
+                position relative
+                line-height 1.888em
+                position relative
+                &:nth-child(odd)
+                    margin-right 3vw
+                &:not(:last-child)
+                    margin-bottom 1.041vw
+                &:first-child
+                    &:before
+                        display block
+                        float left
+                        content ''
+                        width 24px
+                        height 29px
+                        margin 0 15px 0 5px
+                        background url("../images/params.png") no-repeat 0px 0px
+                &:nth-child(2)
+                    &:before
+                        display block
+                        content ''
+                        float left
+                        width 44px
+                        height 28px
+                        margin-right 10px
+                        background url("../images/params.png") no-repeat 0px -30px
+                &:nth-child(3)
+                    &:before
+                        display block
+                        content ''
+                        float left
+                        width 36px
+                        height 28px
+                        margin-right 10px
+                        background url("../images/params.png") no-repeat 0px -59px
+                &:nth-child(4)
+                    &:before
+                        display block
+                        content ''
+                        float left
+                        width 34px
+                        height 35px
+                        margin 0 17px 0 5px
+                        background url("../images/params.png") no-repeat 0px -87px
+    .watch-photos
+        float left
+        width 37.351%
+        position relative
+        text-align center
+        .dots
+            position absolute
+            top 4.4270vw
+            right 0
+            height 100%
+            line-height 100%
+            .dot
+                width 17px
+                height 17px
+                border-radius 50%
+                border 1px solid #879ab1
+                &:not(:last-child)
+                    margin-bottom 0.6770vw
+            .dot.active
+                background #496689
+        .watch-slider
+            padding-right 30px
+    .order
+        clearfix()
+        margin-bottom 2.6041vw
+        display none
+        input
+            display block
+            float left
+            width 26.14vw
+            height 3.64vw
+            line-height 100%
+            outline none
+            border 1px solid #4e6a8c
+            text-align center
+            -webkit-border-radius: 34px 35px 35px 34px/34px 34px 35px 35px;
+            -moz-border-radius: 34px 35px 35px 34px/34px 34px 35px 35px;
+            border-radius: 34px 35px 35px 34px/34px 34px 35px 35px;
+            font-size 1.1616em
+            font-weight 100
+            color #343434
+            &:first-child
+                margin-right 1.3220vw
+        input.err
+            border 2px solid #c51313
+    .watch-btn               
+        text-align center
+        position absolute
+        width 100%
+        left 0
+        bottom -7%
+        &>div
+            font-size 1.511em
+            font-weight 500
+            text-transform uppercase
+            color #fff
+            cursor pointer
+            -webkit-border-radius: 36px 37px 37px 36px/36px 36px 37px 37px;
+            -moz-border-radius: 36px 37px 37px 36px/36px 36px 37px 37px;
+            border-radius: 36px 37px 37px 36px/36px 36px 37px 37px;
+            background-color: #168ecd;
+            -webkit-box-shadow: 0 0 196px 8px #fff;
+            -moz-box-shadow: 0 0 196px 8px #fff;
+            box-shadow: 0 0 196px 8px #fff;
+            padding 1.1458vw 3.3854vw
+            display inline-block
+            transition 0.3s
+            &:hover
+                padding 1.1458vw 3.7854vw
+section.bonus
+    width 100%
+    position relative
+    background url("../images/family-bg.png") no-repeat center
+    background-size cover
+    clearfix()
+    .bonus-content
+        float left
+        width 50%
+        padding 4.166vw 0 2vw 20.3125vw 
+        p
+            color: #f3568a;
+            font-family: "CocogothicBold", sans-serif;
+            font-size 3.4388em
+            margin 0
+            line-height 1em
+            letter-spacing -2px
+        div
+            font-weight 300
+            text-transform uppercase
+            font-size 2.4122em
+            color #4d4d4d
+            margin 3.125vw 0
+            i
+                color #f3568a
+                font-style normal
+            b
+                font-style normal
+                font-weight 500
+                color #4d4d4d                
+    img
+        float left
+        max-width 50%
+    .bonus-btn
+        position absolute
+        text-align center
+        bottom -2vw
+        width 100%
+        div
+            font-size 2.333em
+            color #fff
+            cursor pointer
+            font-weight 500
+            display inline-block
+            -webkit-border-radius: 56px 57px 57px 56px/56px 56px 57px 57px;
+            -moz-border-radius: 56px 57px 57px 56px/56px 56px 57px 57px;
+            border-radius: 56px 57px 57px 56px/56px 56px 57px 57px;
+            background-color: #f3568a;
+            -webkit-box-shadow: 0 0 196px 8px #fff;
+            -moz-box-shadow: 0 0 196px 8px #fff;
+            box-shadow: 0 0 196px 8px #fff;
+            padding 1.5625vw 5.1083vw
+            text-transform uppercase
+            line-height 100%
+            transition 0.3s
+            &:hover
+                padding 1.5625vw 5.5083vw
+section.catalog
+    .container
+        padding-top 8.8541vw
+        .catalog-title
+            color #383838
+            font-size 3.9488em
+            font-family: "CocogothicUltraLight", sans-serif;
+            line-height 1em
+            margin-bottom 5.2083vw
+            i
+                font-family: "CocogothicBold", sans-serif;
+                color #10a1e5
+                font-style normal
+                display block
+section.steps
+    width 100%
+    clearfix()
+    background url("../images/bg4.png") no-repeat center
+    background-size cover
+    .wrap
+        width 55.9895vw
+        float right
+        min-height 40.3645vw
+        height 100%
+        background rgba(0,0,0,.74)
+        padding 4.6875vw 0 4.6875vw 3.3854vw
+        .steps-title
+            color #fff
+            font-family: "CocogothicUltraLight", sans-serif;
+            font-size 3.9488em
+            line-height 1em
+            margin-bottom 2.6041vw
+            i
+                font-style normal
+                font-family: "CocogothicBold", sans-serif;
+                color #10a1e5
+                display block
+        ul
+            padding 0
+            margin 0
+            counter-reset: li;
+            li
+                list-style-type none
+                color #fff
+                margin-bottom 1.8229vw
+                padding-left 5.2083vw
+                position relative
+                &:before
+                    counter-increment: li;  
+                    content: counters(li,".");
+                    position absolute
+                    top 0
+                    left 0
+                    width 65px
+                    height 65px
+                    border-radius 50%
+                    background #10a1e5
+                    text-align center
+                    line-height 65px
+                    font-size 2.2222em
+                    color #fff
+                span
+                    font-weight 500
+                p
+                    font-weight 300
+                    margin 0
+section.response
+    .container
+        text-align center
+        clearfix()
+        padding 7.8125vw 0
+        h5
+            color #383838
+            font-family: "CocogothicLight", sans-serif;
+            font-weight 100
+            font-size 3.9488em
+            line-height 1em
+            margin 0
+            text-align left
+            i
+                font-style normal
+                font-family: "CocogothicBold", sans-serif;
+                color #10a1e5
+                display block
+        .response-wrap
+            clearfix()
+            margin 8.0729vw 0 2.0833vw 0
+            .response-item
+                width 31.4035%
+                float left
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                background-color: #fff;
+                border 1px solid #64c2ee
+                -webkit-box-shadow: 1px 3px 3px rgba(0,0,0,.11);
+                -moz-box-shadow: 1px 3px 3px rgba(0,0,0,.11);
+                box-shadow: 1px 3px 3px rgba(0,0,0,.11);
+                position relative
+                text-align center
+                padding 4.6875vw 1.3416vw 1.0416vw 1.3416vw
+                margin-bottom 2.0833vw
+                &:not(:nth-child(n+3))
+                    margin-right 2.6%
+                .avatar
+                    position absolute
+                    overflow hidden                    
+                    width 100%
+                    text-align center
+                    top -4vw
+                    left 0
+                    img
+                        border-radius 50%
+                        display inline-block
+                        width 8.3333vw
+                .author-name
+                    font-weight 300
+                    color #1285ab
+                    font-size 1.5555em
+                .about-author
+                    font-weight 300
+                    font-style italic
+                    color #bcbcbc
+                    font-size 1.16666em
+                    margin 1.0416vw 0 1.5625vw 0
+                p
+                    color #4b4b4b
+                    font-size 1em
+                    margin 0
+                    font-weight 300
+                    font-style italic
+        .show-more
+            -webkit-border-radius: 36px 37px 37px 36px/36px 36px 37px 37px;
+            -moz-border-radius: 36px 37px 37px 36px/36px 36px 37px 37px;
+            border-radius: 36px 37px 37px 36px/36px 36px 37px 37px;
+            background #fff
+            -webkit-box-shadow: 0 0 196px 8px #fff;
+            -moz-box-shadow: 0 0 196px 8px #fff;
+            box-shadow: 0 0 196px 8px #fff;
+            cursor pointer
+            margin 0 auto
+            text-align center
+            transition 0.3s
+            color #10a1e5
+            font-weight 500
+            text-transform uppercase
+            padding 1.7543% 6.5789%
+            border 3px solid #1285ab
+            display inline-block
+            &:hover
+                background-color: #168ecd;
+                color #fff
+footer
+    width 100%
+    background url("../images/footer-bg.png") no-repeat center
+    background-size cover
+    .container
+        padding 5.46875vw
+        h6
+            color #fff
+            font-family: "CocogothicLight", sans-serif;
+            font-weight 100
+            font-size 3.9488em
+            line-height 1em
+            margin 0 0 2.8645vw 0
+            text-align left
+            i
+                font-style normal
+                font-family: "CocogothicBold", sans-serif;
+                color #10a1e5
+                display block
+        .contacts-info
+            p
+                font-size 1.5555em
+                color #fff
+                font-family: 'Roboto Condensed', sans-serif;
+                margin .7vw 0
+                padding-left 45px
+                position relative
+                &:last-child
+                    font-size 1.8988em
+                    font-weight bold
+                &:first-child
+                    margin-bottom 2.34375vw
+                    &:before
+                        content ''
+                        display block
+                        float left
+                        width 32px
+                        height 24px
+                        position absolute
+                        top 5px
+                        left 0
+                        background url("../images/contacts.png") no-repeat 0px 0px
+                &:nth-child(2)
+                    &:before
+                        content ''
+                        display block
+                        float left
+                        width 27px
+                        height 27px
+                        position absolute
+                        top 5px
+                        left 0
+                        background url("../images/contacts.png") no-repeat 0px -25px
+                &:nth-child(3)
+                    &:before
+                        content ''
+                        display block
+                        float left
+                        width 26px
+                        height 33px
+                        position absolute
+                        top 5px
+                        left 0
+                        background url("../images/contacts.png") no-repeat 0px -52px
+                &:nth-child(6)
+                    &:before
+                        content ''
+                        display block
+                        float left
+                        width 22px
+                        height 30px
+                        position absolute
+                        top 5px
+                        left 0
+                        background url("../images/contacts.png") no-repeat 0px -86px
+                &:nth-child(7)
+                    &:before
+                        content ''
+                        display block
+                        float left
+                        width 27px
+                        height 23px
+                        position absolute
+                        top 12px
+                        left 0
+                        background url("../images/contacts.png") no-repeat 0px -117px
+.sandwich
+    float right
+    cursor pointer
+    z-index 11
+    position relative
+    display none
+.sandwich.active
+    width 32px
+    height 32px
+    background URL("../images/close-btn.png") no-repeat left bottom
+    background-size cover
+    cursor pointer
+    margin-right 7px
+.sandwich.active
+    &>img
+        display none
+.mobile-nav
+    display none
+    width 100%
+    height 100%
+    position absolute
+    top 0
+    left 0
+    background rgba(0,0,0,.8)
+    z-index 10
+    text-align center
+    padding-top 20%
+    transition 0.3s
+    ul
+        padding 0
+        margin 0
+        li
+            list-style-type none
+            margin-bottom 40px
+            a
+                color #fff
+                font-size 2em
+                border-bottom 4px solid transparent
+                transition 0.3s
+                &:hover
+                    border-bottom 4px solid #10a1e5
+.w1
+    .dot
+        &:first-child
+            background #FD4B92
+        &:nth-child(2)
+            background #4BFE1E
+        &:nth-child(3)
+            background #52E5EC
+        &:nth-child(4)
+            background #A4E77E
+.w2
+    .dot
+        &:first-child
+            background #184CD2
+        &:nth-child(2)
+            background #DB561D
+        &:nth-child(3)
+            background #79E4F0
+        &:nth-child(4)
+            background #EF499D
+.w3
+    .dot
+        &:first-child
+            background #A3C701
+        &:nth-child(2)
+            background #5FC0ED
+        &:nth-child(3)
+            background #39393B
+        &:nth-child(4)
+            background #C0C0BE
+.w4
+    .dot
+        &:first-child
+            background #D1D1D1
+        &:nth-child(2)
+            background #E52C32
+        &:nth-child(3)
+            background #1F1F1F
+.w5
+    .dot
+        &:first-child
+            background #1B1B1B
+        &:nth-child(2)
+            background #B8D500
+        &:nth-child(3)
+            background #7C727B
+        &:nth-child(4)
+            background #E8E3E9
+        &:nth-child(5)
+            background #6398D2
+        &:nth-child(6)
+            background #A00709
+.w6
+    .dot
+        &:first-child
+            background #0A090E
+        &:nth-child(2)
+            background #4CA9E2
+        &:nth-child(3)
+            background #DBF266
+        &:nth-child(4)
+            background #EEEEEE
+.w7
+    .dot
+        &:first-child
+            background #BEC2CB
+        &:nth-child(2)
+            background #CCA087
+        &:nth-child(3)
+            background #D7D9D6
+        &:nth-child(4)
+            background #141416
+.w8,
+.w12
+    .dot
+        &:first-child
+            background #D3A58E
+        &:nth-child(2)
+            background #AEB5BD
+        &:nth-child(3)
+            background #3F3E43
+.w9
+    .dot
+        &:first-child
+            background #C2262A
+        &:nth-child(2)
+            background #2F2F2F
+        &:nth-child(3)
+            background #DCDDE2
+        &:nth-child(4)
+            background #B6ADB0
+.w10
+    .dot
+        &:first-child
+            background #232325
+        &:nth-child(2)
+            background #656565
+        &:nth-child(3)
+            background #494546
+        &:nth-child(4)
+            background #E9AD90
+.w11
+    .dot
+        &:first-child
+            background #F0F0F0
+        &:nth-child(2)
+            background #9E1D21
+        &:nth-child(3)
+            background #1256B7
+        &:nth-child(4)
+            background #343434
+        &:nth-child(5)
+            background #E572B5
+@media(max-width 1700px) {
+    section.bonus .bonus-content p {
+        font-size: 2.6388em;
+    }
+    section.bonus .bonus-content div {
+        font-size: 1.9122em;
+    }
+    .watch .watch-description {
+        max-width 63%
+    }
+    .watch .watch-photos {
+        width 37%
+    }
+    .watch .watch-description .watch-item .watch-title,
+    .watch .watch-description .watch-item .watch-price {
+        font-size 1.9em
+    }
+    section.what .container .about-watches + img {
+        top 12vw
+    }
+}
+@media (max-width 1366px) {
+    .container {
+        width 80vw
+    }
+    .watch .order input {
+        width 48%
+    }
+    section.bonus .bonus-content {
+        padding: 4.166vw 0 2vw 10.3125vw;
+    }
+    section.steps .wrap ul li {
+        padding-left 8.2vw
+    }
+}
+@media(max-width 1023px) {
+    header {
+        background-position 30% top
+    }
+    nav {
+        display none
+    }
+    .sandwich {
+        display block
+    }
+    .container {
+        width 90vw
+    }
+    body {
+        font-size 16px
+    }
+    .container h1 {
+        font-size 2.5em
+        padding-top: 35%
+    }
+    section.what .container h2,
+    section.advantages .container h3 {
+        font-size 1.948em
+        line-height 1.2em
+    }
+    section.what .container .about-watches {
+        padding 4vw 0
+    }
+    section.what .container .about-watches {
+        padding 4vw 0
+    }
+    section.what .container .about-watches + img {
+        position relative
+        width 100%
+        top 0
+        right 0
+    }
+    .container .tocat,
+    .container .tocat:hover {
+        padding: 2.7825vw 3.13em;
+    }
+    section.advantages {
+        position relative
+        margin-top -35%
+        z-index 1
+    }
+    section.advantages .container .advantages-wrap .adv-item {
+        margin-left 2.5%
+        width 40%
+    }
+    section.advantages .container .advantages-wrap .adv-item:nth-child(odd) {
+        margin-right 10%
+    }
+    section.advantages .container .advantages-wrap .adv-item:nth-child(1),
+    section.advantages .container .advantages-wrap .adv-item:nth-child(2) {
+        margin-bottom 10vw
+        margin-top 10vw
+    }
+    section.advantages .container .advantages-wrap .adv-item p {
+        font-size 1em
+    }
+    section.hits .container h4, {
+        font-size 1.948em
+        text-align center
+    }
+    section.hits .container .watch.hit > img {
+        display none
+    }
+    .watch .watch-description {
+        max-width 100%
+        text-align center
+        float none
+    }
+    .watch .watch-description .watch-item .watch-title, .watch .watch-description .watch-item .watch-price {
+        font-size 1.7em
+        width 100%
+    }
+    .watch .watch-description .watch-item .watch-title {
+        margin-bottom 2vw
+    }
+    .watch .watch-description .about-watch {
+        text-align justify
+    }
+    .watch .watch-description .watch-params {
+        text-align left
+    }
+    .watch .watch-description .watch-params .param:first-child:before,
+    .watch .watch-description .watch-params .param:nth-child(2):before,
+    .watch .watch-description .watch-params .param:nth-child(3):before,
+    .watch .watch-description .watch-params .param:nth-child(4):before {
+        width 44px
+        margin 0 10px 0 0
+        margin-bottom 2vw
+    }
+    .watch .watch-description .watch-params .param {
+        float none
+        width 80%
+        margin 5vw auto !important
+    }
+    .watch .watch-photos {
+        width 90%
+        float none
+        margin 10vw auto
+    }
+    .watch,
+    .watch:last-child {
+        margin-bottom 80px
+    }
+    .watch .order input {
+        width 100%
+        height 10vw
+        margin-bottom 2vw
+    }
+    section.bonus {
+        background #c0f4ff
+    }
+    section.bonus .bonus-content {
+        width 90vw
+        margin 0 auto
+        float none
+        padding 5vw 0 0 0
+        text-align center
+    }
+    section.bonus .bonus-content p {
+        font-size 2.2em
+    }
+    section.bonus .bonus-content div {
+        font-size 1.7em
+    }
+    section.bonus:after {
+        display block
+        width 100%
+        min-height 100vw
+        background url("../images/family.png") no-repeat center top
+        background-size cover
+    }
+    section.bonus .bonus-btn {
+        bottom - 1.3em
+    }
+    section.bonus .bonus-btn div {
+        font-size 1.7em
+    }
+    section.catalog .container .catalog-title,
+    section.steps .wrap .steps-title,
+    section.response .container h5,
+    footer .container h6 {
+        font-size 1.948em
+        text-align center
+        margin 3vw 0 5vw 0
+    }
+    section.steps .wrap {
+        width 100%
+        padding 15% 5%
+        text-align center
+    }
+    section.steps .wrap ul li:before {
+        position relative
+        display block
+        margin 0 auto
+    }
+    section.steps .wrap ul li {
+        padding 0 !important
+    }
+    section.response .container .response-wrap .response-item {
+        width 100%
+    }
+    section.response .container .response-wrap .response-item:not(:last-child) {
+        margin-bottom 100px
+    }
+    section.response .container .response-wrap .response-item:first-child {
+        margin-top 50px
+    }
+    footer .container {
+        padding 15% 1%
+    }
+    footer .container .contacts-info p,
+    footer .container .contacts-info p:last-child {
+        font-weight normal
+        font-size 1em
+        text-align center
+        padding-left 0
+    }
+    footer .container .contacts-info p:before {
+        display none !important
+    }
+}
+
+@media (max-width 500px) {
+    section.response .container .response-wrap .response-item {
+        padding-top 20vw
+    }
+    section.response .container .response-wrap .response-item .avatar {
+        top -16vw
+    }
+    section.response .container .response-wrap .response-item .avatar img {
+        width 30vw
+    }
+    section.response .container {
+        padding-bottom 0
+    }
+    section.response .container .show-more {
+        width 100%
+        margin 50px 0 75px
+        padding: 3.7543% 6.5789%;
+    }
+    .watch .watch-btn {
+        bottom -2%
+    }
+    .watch .watch-btn > div,
+    .watch .watch-btn > div:hover {
+        font-size 1.2em
+        padding 2% 10%
+    }
+}
+                            
+                            
+                        
+                        
+            
+            
+                        
+                    
+                    
+                
+            
