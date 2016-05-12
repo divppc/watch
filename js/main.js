@@ -7,7 +7,7 @@ $(document).ready(function() {
         }, {
             duration: 1500
         });
-        e.preventDefault;
+        e.preventDefault();
     });
     $(".nav2").click(function(e){
         $(".mobile-nav").removeClass("active");
@@ -17,7 +17,7 @@ $(document).ready(function() {
         }, {
             duration: 3000
         });
-        e.preventDefault;
+        e.preventDefault();
     });
     $(".nav3").click(function(e){
         $(".mobile-nav").removeClass("active");
@@ -27,7 +27,7 @@ $(document).ready(function() {
         }, {
             duration: 3500
         });
-        e.preventDefault;
+        e.preventDefault();
     });
     $(".nav4").click(function(e){
         $(".mobile-nav").removeClass("active");
@@ -37,7 +37,7 @@ $(document).ready(function() {
         }, {
             duration: 4000
         });
-        e.preventDefault;
+        e.preventDefault();
     });
 
     $(".bonus-btn").click(function(e){
@@ -46,12 +46,18 @@ $(document).ready(function() {
         }, {
             duration: 500
         });
-        e.preventDefault;
+        e.preventDefault();
     });
 
     $(".sandwich").click(function(e) {
         $(".mobile-nav").toggleClass("active");
         $(this).toggleClass("active");
+    });
+
+    $("#close-modal").click(function(e) {
+        $(".modal-bg").fadeOut();
+        $(".thx").fadeOut();
+        e.preventDefault();
     });
 
     $(".read-more").click(function (e) {
@@ -110,7 +116,8 @@ $(document).ready(function() {
                     })
                     .done(function(data) {
                         if(data){
-                            alert('Сообщение успешно отправлено!');
+                            $(".modal-bg").fadeIn(200);
+                            $(".thx").fadeIn(400);
                             name.val("");
                             phone.val("");
                         }
