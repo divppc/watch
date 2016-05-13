@@ -270,42 +270,42 @@ section.hits
                     margin-right 3vw
                 &:not(:last-child)
                     margin-bottom 1.041vw
-                &:first-child
-                    &:before
-                        display block
-                        float left
-                        content ''
-                        width 24px
-                        height 29px
-                        margin 0 15px 0 5px
-                        background url("../images/params.png") no-repeat 0px 0px
-                &:nth-child(2)
-                    &:before
-                        display block
-                        content ''
-                        float left
-                        width 44px
-                        height 28px
-                        margin-right 10px
-                        background url("../images/params.png") no-repeat 0px -30px
-                &:nth-child(3)
-                    &:before
-                        display block
-                        content ''
-                        float left
-                        width 36px
-                        height 28px
-                        margin-right 10px
-                        background url("../images/params.png") no-repeat 0px -59px
-                &:nth-child(4)
-                    &:before
-                        display block
-                        content ''
-                        float left
-                        width 34px
-                        height 35px
-                        margin 0 17px 0 5px
-                        background url("../images/params.png") no-repeat 0px -87px
+            .param.p1
+                &:before
+                    display block
+                    float left
+                    content ''
+                    width 24px
+                    height 29px
+                    margin 0 15px 0 5px
+                    background url("../images/params.png") no-repeat 0px 0px
+            .param.p2
+                &:before
+                    display block
+                    content ''
+                    float left
+                    width 44px
+                    height 28px
+                    margin-right 10px
+                    background url("../images/params.png") no-repeat 0px -30px
+            .param.p3
+                &:before
+                    display block
+                    content ''
+                    float left
+                    width 36px
+                    height 28px
+                    margin-right 10px
+                    background url("../images/params.png") no-repeat 0px -59px
+            .param.p4
+                &:before
+                    display block
+                    content ''
+                    float left
+                    width 34px
+                    height 35px
+                    margin 0 17px 0 5px
+                    background url("../images/params.png") no-repeat 0px -87px
     .watch-photos
         float left
         width 37.351%
@@ -498,6 +498,10 @@ section.steps
                 p
                     font-weight 300
                     margin 0
+        p
+            color #fff
+            font-size 1em
+            font-weight 300
 section.response
     .container
         text-align center
@@ -1028,7 +1032,7 @@ section.faq
         margin-bottom 2vw
     }
     .watch .watch-description .about-watch {
-        text-align justify
+        text-align left
     }
     .watch .watch-description .watch-params {
         text-align left
