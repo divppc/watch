@@ -609,7 +609,7 @@ footer
                 display block
         .contacts-info
             p
-                font-size 1.5555em
+                font-size 1.5555em !important
                 color #fff
                 font-family: 'Roboto Condensed', sans-serif;
                 margin .7vw 0
@@ -674,6 +674,8 @@ footer
                         top 12px
                         left 0
                         background url("../images/contacts.png") no-repeat 0px -117px
+            a
+                color #fff
 .sandwich
     float right
     cursor pointer
@@ -1127,12 +1129,17 @@ section.faq
         padding 15% 1%
     }
     footer .container .contacts-info p,
+    footer .container .contacts-info a,
     footer .container .contacts-info p:last-child {
         font-weight normal
         font-size 1em
         text-align center
         padding-left 0
     }
+    // footer .container .contacts-info a {
+    //     display inline
+    //     font-size 10px !important
+    // }
     footer .container .contacts-info p:before {
         display none !important
     }
