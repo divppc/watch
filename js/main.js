@@ -54,6 +54,11 @@ $(document).ready(function() {
         $(this).toggleClass("active");
     });
 
+    $(".q").click(function (e) {
+       $(this).siblings(".a").slideToggle(400)
+       $(this).toggleClass("open");
+    });
+
     $("#close-modal").click(function(e) {
         $(".modal-bg").fadeOut();
         $(".thx").fadeOut();

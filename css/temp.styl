@@ -872,6 +872,45 @@ footer
         margin-bottom 40px
         &:hover
             border-bottom 1px dashed transparent
+section.faq
+    .container
+        padding 5% 0
+        clearfix()
+        .faq-title
+            font-weight 100
+            color #000
+            margin-bottom 5%
+            font-size 3.9488em
+        .faq-item
+            margin-bottom 2%
+            .q
+                font-size 2em
+                margin-bottom 2%
+                font-weight 200
+                position relative
+                cursor pointer
+                &:before
+                    display block
+                    content '+'
+                    width 40px
+                    height 40px
+                    border-radius 50%
+                    background #1D76AB
+                    cursor pointer
+                    text-align center
+                    line-height 40px
+                    margin-right 10px
+                    color #fff
+                    float left
+                    transition 0.5s
+            .q.open
+                &:before
+                    transform rotate(45deg)
+            .a
+                font-size 1em
+                font-weight 100
+                padding-left 50px
+                display none         
 @media(max-width 1700px) {
     section.bonus .bonus-content p {
         font-size: 2.6388em;
@@ -948,10 +987,11 @@ footer
     .container .tocat:hover {
         padding: 2.7825vw 3.13em;
     }
-    section.advantages {
+    section.faq {
         position relative
         margin-top -35%
         z-index 1
+        background #fff
     }
     section.advantages .container .advantages-wrap .adv-item {
         margin-left 2.5%
@@ -1125,6 +1165,16 @@ footer
     .watch .watch-btn > div:hover {
         font-size 1.2em
         padding 2% 10%
+    }
+    section.faq .container .faq-title {
+        font-size 1.498em
+    }
+    section.faq .container .faq-item .q{
+        font-size 1.2em
+    }
+     section.faq .container .faq-item .a{
+        font-size .8em
+        padding-left 0
     }
 }
                             
