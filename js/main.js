@@ -50,7 +50,7 @@ $(document).ready(function() {
     });
 
     $(".sandwich").click(function(e) {
-        $(".mobile-nav").toggleClass("active");
+        $("nav").toggleClass("mobile-nav active");
         $(this).toggleClass("active");
     });
 
